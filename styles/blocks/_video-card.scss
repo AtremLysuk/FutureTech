@@ -1,0 +1,27 @@
+@use '../helpers/' as *;
+
+.video-card {
+  height: 100%;
+  display: flex;
+  row-gap: rem(30);
+  flex-direction: column;
+  align-items: start;
+
+  @include laptop {
+    row-gap: rem(20);
+  }
+
+  &__body {
+    display: grid;
+    row-gap: fluid(10, 4);
+    flex-grow: 1;
+  }
+
+  &__player {
+    width: 100%;
+
+    .video-player__video.video-player__video--small {
+      width: 100%;
+    }
+  }
+}
