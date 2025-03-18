@@ -2,14 +2,20 @@
   "name": "furture-tech",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://AtremLysuk.github.io/FutureTech",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-watch": "sass --watch ."
+    "sass-watch": "sass --watch .",
+    "build": "build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "sass": "^1.80.6"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
