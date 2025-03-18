@@ -1069,6 +1069,7 @@ button[aria-label]::before {
   }
 }
 .hero__resources-preview {
+  overflow-x: visible;
   grid-area: resources-preview;
   padding-left: 5rem;
   padding-bottom: 5rem;

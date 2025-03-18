@@ -71,6 +71,7 @@
   }
 
   &__resources-preview {
+    overflow-x: visible;
     grid-area: resources-preview;
 
     padding-left: rem(80);
