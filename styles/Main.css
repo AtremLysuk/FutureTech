@@ -350,6 +350,7 @@ html.is-lock {
 
 body {
   font-size: clamp(0.875rem, 0.8112745098rem + 0.2614379085vw, 1.125rem);
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-base);
@@ -543,7 +544,7 @@ button[aria-label]::before {
 }
 
 .logo {
-  max-width: clamp(7.875rem, 7.0306372549rem + 3.4640522876vw, 11.1875rem);
+  max-width: clamp(7.875rem, 7.2536764706rem + 2.5490196078vw, 10.3125rem);
 }
 
 .button {
