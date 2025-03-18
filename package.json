@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass-watch": "sass --watch .",
     "build": "build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d FutureTech"
   },
   "author": "",
   "license": "ISC",
