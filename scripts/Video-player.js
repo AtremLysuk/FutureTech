@@ -1,5 +1,5 @@
 const rootSelector = '[data-js-video-player]';
-console.log(rootSelector)
+
 
 class VideoPlayer {
     selectors = {
