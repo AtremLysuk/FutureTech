@@ -534,13 +534,13 @@ button[aria-label]::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url(../../icons/arrow-yellow.svg);
+  background-image: url(../icons/arrow-yellow.svg);
 }
 .icon--yellow-eye::after {
   background-image: url(../../icons/eye-yellow.svg);
 }
 .icon--gray-arrow-down::after {
-  background-image: url(../../icons/arrow-down_gray.svg);
+  background-image: url(../icons/arrow-down_gray.svg);
 }
 
 .logo {
@@ -1073,7 +1073,7 @@ button[aria-label]::before {
   grid-area: resources-preview;
   padding-left: 5rem;
   padding-bottom: 5rem;
-  background: url(../../images/resources-previev/bg.png) 0 0/cover no-repeat;
+  background: url(../images/resources-previev/bg.png) 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
